@@ -1,11 +1,7 @@
 <?php 
-$prices = array( 'Tires'=>100 );
-$prices['Oil'] = 10;
-$prices['Spark Plugs'] = 4; 
+$arr=array("good","better","best");
+list($first,$second,$third)=$arr;
+echo "first is $first, second is $second and the third is $third";
 
-	while(list($product,$price)=each($prices)){
-		echo "$product -- $price <br/>";
-	}
-	
 
 ?>
